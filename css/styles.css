@@ -1,0 +1,10 @@
+
+#box {animation: example 5s infinite;}@keyframes example { 
+  0% {background-color: #262626;} 
+  25% {background-color: #545454;} 
+  50% {background-color: #000000;} 
+  75% {background-color: #545454;} 
+  100% {background-color: #262626;} 
+}div {width: 100px; height: 100px; position: relative; background-color: red; animation-name: example;}
+.body-initial {animation: example 10s infinite; left: 0px; top: 0px; width: 100px; height: 100px; position: relative; background-color: red; animation-name: example;}
+.text-element > .silex-element-content {font-family: 'Roboto', sans-serif;}body.silex-runtime {opacity: 1;}
